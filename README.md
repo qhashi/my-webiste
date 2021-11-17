@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Author: Qaalid Hashi
+
+## What is this?
+
+A personal React-based website where I can show my projects and skills.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+//import AboutMe from './AboutMe.js';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My personal website.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+    
+
+    <h1>Welcome to Qaalid's Website!</h1>
+    <Navbar bg="dark" variant="dark">
+    <Navbar.Brand href="#home">Home</Navbar.Brand>
+    <Navbar.Brand href="#AboutMe">AboutMe</Navbar.Brand>
+    </Navbar>
+    </>
   );
 }
 
