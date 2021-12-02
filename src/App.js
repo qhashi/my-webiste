@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import AboutMe from './AboutMe.js';
+import AboutMe from './AboutMe.js';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
     <Navbar.Brand href="#home">Home</Navbar.Brand>
     <Navbar.Brand href="#AboutMe">AboutMe</Navbar.Brand>
     </Navbar>
+    <AboutMe />
     </>
   );
 }
