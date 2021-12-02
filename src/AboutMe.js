@@ -10,7 +10,7 @@ class AboutMe extends React.Component {
       <>
       <CardGroup id = 'group'>
         <Card style={{ width: '18rem' }} className="about-us-card" bg="dark">
-          <Card.Img variant="top" src={qImg} />
+          <Card.Img variant="top" id='qImg' src={qImg} />
           <Card.Body className="card-body">
             <Card.Title className="card-title">Qaalid Hashi</Card.Title>
             <Card.Text className="card-text">

@@ -1,0 +1,23 @@
+/* #qImg {
+  border: red solid 1px;
+  width: 500px;
+} */
+
+.card-img-top {
+  margin: 5%;
+  max-width: 90%;
+}
+
+.card-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2em;
+}
+
+.card-body, .card-title, .card-text {
+  background-color: inherit;
+  color: #C09F80;
+}
+
+#group {
+  max-width: 25vw;
+}
