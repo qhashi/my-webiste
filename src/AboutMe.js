@@ -14,7 +14,7 @@ class AboutMe extends React.Component {
           <Card.Body className="card-body">
             <Card.Title className="card-title">Qaalid Hashi</Card.Title>
             <Card.Text className="card-text">
-            Background in Professional Security. Pursuing a career in Full-Stack Development. Last meal on Earth: Somali Rice and Chicken with Anjero.
+            Former security professional turned full-stack developer. Interested in front-end development and UI design. Passionate about learning new things, working with code, and coming up with clever and creative solutions.
             </Card.Text>
           </Card.Body>
         </Card>

@@ -1,0 +1,7 @@
+#canvasImg {
+  border: 1px red solid;
+}
+
+.canvasFlex{
+  flex-direction: column;
+}
