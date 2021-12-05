@@ -1,8 +1,9 @@
 import React from 'react';
-import './AboutMe.css';
+import '../CSS/resetCss.css'
+import '../CSS/AboutMe.css';
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import qImg from './images/qImg.jpg';
+import qImg from '../images/qImg.jpg';
 
 class AboutMe extends React.Component {
   render (){

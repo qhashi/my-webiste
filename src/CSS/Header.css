@@ -1,0 +1,42 @@
+
+/* #zongnan{
+  height: 100vh;
+  width: 100vw;
+} */
+
+#sectionHeader {
+  width: 99vw;
+  height: 100vh;
+}
+#headerPic{
+  width: 100vw;
+}
+#figName {
+  position: absolute;
+  bottom: 25rem;
+  /* margin: 0 20rem; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  font-size: 2.6em;
+  color: white;
+}
+
+#figTitle {
+  position: absolute;
+  bottom: 15rem;
+  /* margin-right: 10rem;
+  margin-left: 20rem;
+  margin-bottom: 5rem; */
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(0,0,0,0);
+  font-size: 2.6em;
+  color: gold;
+}
