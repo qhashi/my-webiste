@@ -1,14 +1,17 @@
 #navbarSection {
   border: red 1px solid;
-  overflow: hidden;
-  background-color: #333;
-  margin-top: -30vh;
-  position: fixed;
+  overflow: hidden; 
+  /* margin-top: -14vh; */
+  position: sticky;
+  /* top: 100; */
+  bottom: 0;
+  
 }
 
 #navbarParent {
   border: purple 3px solid;
 }
+/* background-color: rgba(0, 0, 0, 0); */
 
 .links {
   float: left;
@@ -17,4 +20,5 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
+  border: green 1px solid;
 }
