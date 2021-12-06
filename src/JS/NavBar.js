@@ -13,7 +13,7 @@ class NavBar extends React.Component {
         <Navbar id="navbarParent">
           <Container className="navbarContainer">
             <Navbar.Brand className="brandName">Welcome!</Navbar.Brand>
-            
+            <Button variant="primary" className="links" href="/">Home</Button>
             <Button variant="primary" className="links" href="https://github.com/qhashi">Github</Button>
             <Button variant="primary" className="links" href="https://www.linkedin.com/in/qaalidhashi">LinkedIn</Button>
           </Container>
