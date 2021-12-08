@@ -11,8 +11,8 @@ class NavBar extends React.Component {
       <>
       <section id='navbarSection'>
         <Navbar id="navbarParent">
-          <Container className="navbarContainer">
-            <Navbar.Brand className="brandName">Welcome!</Navbar.Brand>
+          <Container id="navbarContainer">
+            <Navbar.Brand className="brandName"><h3>Welcome!</h3></Navbar.Brand>
             <Button variant="primary" className="links" href="/">Home</Button>
             <Button variant="primary" className="links" href="/">About Me</Button>
             <Button variant="primary" className="links" href="/">Portfolio</Button>
