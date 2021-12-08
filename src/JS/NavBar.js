@@ -14,6 +14,8 @@ class NavBar extends React.Component {
           <Container className="navbarContainer">
             <Navbar.Brand className="brandName">Welcome!</Navbar.Brand>
             <Button variant="primary" className="links" href="/">Home</Button>
+            <Button variant="primary" className="links" href="/">About Me</Button>
+            <Button variant="primary" className="links" href="/">Portfolio</Button>
             <Button variant="primary" className="links" href="https://github.com/qhashi">Github</Button>
             <Button variant="primary" className="links" href="https://www.linkedin.com/in/qaalidhashi">LinkedIn</Button>
           </Container>
