@@ -1,15 +1,11 @@
 #navbarSection {
   border: red 1px solid;
-  overflow: hidden; 
-  /* margin-top: -14vh; */
-  position: sticky;
-  /* top: 100; */
-  bottom: 0;
-  
+  position: fixed;
+  top: 0;
 }
 
 #navbarParent {
-  border: purple 3px solid;
+  border: purple 3px solid;  
 }
 /* background-color: rgba(0, 0, 0, 0); */
 
@@ -21,4 +17,5 @@
   padding: 14px;
   text-decoration: none;
   border: green 1px solid;
+  
 }
