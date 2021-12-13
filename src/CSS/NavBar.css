@@ -1,13 +1,26 @@
 #navbarSection {
-  border: red 1px solid;
+  /* border: red 1px solid; */
+  width: 100%;
   position: fixed;
   top: 0;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 #navbarParent {
-  border: purple 3px solid;  
+  /* border: purple 3px solid;   */
+  background-color: rgba(0, 0, 0, 0);
 }
 /* background-color: rgba(0, 0, 0, 0); */
+
+.navbarContainer{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* .brandName{
+  border: 1px red solid;
+  background-color: black;
+  color: white;
+} */
 
 .links {
   float: left;
@@ -16,6 +29,7 @@
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  border: green 1px solid;
+  background-color: rgba(0, 0, 0, 0);
+  /* border: green 1px solid; */
   
 }
