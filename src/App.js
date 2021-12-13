@@ -4,13 +4,13 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import AboutMe from './JS/AboutMe.js';
 import Header from './JS/Header.js';
-import NavBar from './JS/NavBar.js';
+// import NavBar from './JS/NavBar.js';
 
 function App() {
   return (
     <>
     <Header />
-    <NavBar />
+    {/* <NavBar /> */}
     {/* <AboutMe /> */}
     </>
   );
