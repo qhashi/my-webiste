@@ -1,9 +1,35 @@
+
+#sectionAbout{
+  width: 99%;
+  height: 99%;
+}
+
+
+#aboutMe-bg-img{
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background: url('../images/portfolioBgImg.svg');
+  background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* #qImg {
   border: red solid 1px;
   width: 500px;
 } */
 
-.card-img-top {
+/* .card-img-top {
   margin: 5%;
   max-width: 90%;
 }
@@ -20,4 +46,4 @@
 
 #group {
   max-width: 25vw;
-}
+} */
